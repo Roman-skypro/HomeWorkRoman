@@ -5,6 +5,7 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println(" Циклы: for");
+
          // Task 1
         System.out.println("Задача 1");
         for (int i = 1; i <= 10; i = i + 1) {
@@ -63,6 +64,8 @@ public class Main {
             int sum = number * a;
             System.out.println(number + " * " + a + " = " + sum);
         }
+   
+
 
 
     }
