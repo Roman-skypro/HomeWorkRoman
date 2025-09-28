@@ -5,8 +5,7 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println(" Циклы: for");
-
-        // Task 1
+         // Task 1
         System.out.println("Задача 1");
         for (int i = 1; i <= 10; i = i + 1) {
             System.out.println(i);
@@ -26,25 +25,21 @@ public class Main {
         for (int i = 10; i >= -10; i = i - 1) {
             System.out.println(i);
         }
-
         // Task 5
         System.out.println("Задача 5");
         for (int i = 1904; i < 2096; i = i + 4) {
             System.out.println(i + " год является високосным");
         }
-
         // Task 6
         System.out.println("Задача 6");
         for (int i = 7; i <= 98; i = i + 7) {
             System.out.println(i);
         }
-
         // Task 7
         System.out.println("Задача 7");
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
-
         // Task 8
         System.out.println("Задача 8");
         int savings = 29000;
@@ -53,7 +48,6 @@ public class Main {
             perYear = savings + perYear;
             System.out.println("Месяц " + i + " сумма накоплений равна " + perYear + " рублей.");
         }
-
         // Task 9
         System.out.println("Задача 9");
         int total = 0;
@@ -62,7 +56,6 @@ public class Main {
             total = savings + total;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей.");
         }
-
         // Task 10
         System.out.println("Задача 10");
         int number = 2;
@@ -70,7 +63,6 @@ public class Main {
             int sum = number * a;
             System.out.println(number + " * " + a + " = " + sum);
         }
-
 
 
     }
