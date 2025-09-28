@@ -66,9 +66,9 @@ public class Main {
         // Task 10
         System.out.println("Задача 10");
         int number = 2;
-        for (int i = 1; i <= 10; i = i + 1) {
-            int sum = number * i;
-            System.out.println(number + " * " + i + " = " + sum);
+        for (int a = 1; a <= 10; a = a + 1) {
+            int sum = number * a;
+            System.out.println(number + " * " + a + " = " + sum);
         }
 
 
